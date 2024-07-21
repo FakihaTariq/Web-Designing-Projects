@@ -1,0 +1,73 @@
+/* STYLE SECTIONING TAGS */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+ background-color: #edb8fc; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #61038d; font-family: Comic Sans MS, serif; text-align: center; background-color: #ca44ee; padding: 18px
+
+}
+
+h2 {
+   color: #61038d; font-family: Comic Sans MS, serif; padding: 3px; margin-top: 20px; text-align: center;
+}
+
+h3 {
+   color: #61038d; font-family: Comic Sans MS, serif; text-align: left; padding: 9px
+}
+
+
+p {
+  color: #61038d; font-family: Times New Roman, sans-serif; font-size: 20px; text-width: 50%; text-align: left; margin-left: 75px; margin-bottom: 35px; margin-right:45px; margin-top:15px;
+}
+
+body {
+  text-align: center;
+}
+
+
+.intro {
+  color: #61038d; font-family: Times New Roman, sans-serif; font-size: 20px; text-width: 50%; text-align: center; margin-bottom: 20px; margin-top: 20px; 
+}
+
+main {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 18%;
+  margin-left: 18%;
+}
+
+/* STYLE IMAGES */
+#mainImg {
+  border-radius: 50%; border:2px dashed #ca44ee; 
+}
+img {
+  max-width: 28%; max-height: 28%; border-radius: 5%; border: 2px solid #61038d; margin-top: 20px; margin-bottom: 18px
+}
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: #61038d;
+  overflow: hidden;
+  padding: 10px;
+}
+li {
+  display: inline; 
+}
+li a {
+  color: #edb8fc;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 20px
+}
+
+li a:hover {
+  background-color: #ca44ee
+}
